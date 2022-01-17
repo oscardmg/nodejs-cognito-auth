@@ -1,0 +1,4 @@
+.serverless/*.json
+.serverless/*.js
+.history
+coverage

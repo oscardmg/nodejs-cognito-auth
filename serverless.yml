@@ -3,9 +3,13 @@ service: serverless-cognito-auth
 provider:
   name: aws
   runtime: nodejs14.x
+  stage: ${opt:stage,'dev'}
+  region: "us-east-1"
   environment:
     user_pool_id: { Ref: UserPool }
     client_id: { Ref: UserClient }
+  deploymentBucket:
+    name: pco-app-${self:provider.stage}.${self:provider.region}.deploy-files
   iamRoleStatements:
     - Effect: Allow
       Action:

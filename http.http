@@ -1,0 +1,22 @@
+
+POST https://w0ckixk51d.execute-api.us-east-1.amazonaws.com/dev/user/signup
+
+{
+    "email": "oscardmg@gmail.com",
+    "password": "*Abcd123+"
+}
+
+### 
+
+POST https://w0ckixk51d.execute-api.us-east-1.amazonaws.com/dev/user/login
+
+{
+    "email": "oscardmg@gmail.com",
+    "password": "*Abcd123+"
+}
+
+###
+POST https://w0ckixk51d.execute-api.us-east-1.amazonaws.com/dev/user/private
+content-type: application/json
+Authorization: eyJraWQiOiJySzVpYUJcL1MxOEo0b2RFMDNlK0Y3aHlNc3pncnBVZHRqNCtBZGpXTE41cz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1ZTQyODAwZi05YWRkLTQyYzctODU4MS00YmNlYWQ1YzE4MDciLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfdDJ1NE10ZkwwIiwiY29nbml0bzp1c2VybmFtZSI6Im9zY2FyZG1nQGdtYWlsLmNvbSIsIm9yaWdpbl9qdGkiOiI2ZWM1YzAxZS1jYmIxLTRkNDEtYjE4My0xMTU0ZDY2MmY5NWUiLCJhdWQiOiI0aHVldDgzaXNkcWFrcTVrZm5nNXQwczBwNiIsImV2ZW50X2lkIjoiMjAxMDUzZTYtMWI5Ny00ZTVmLWJjNDktYzQ5Y2JlMWE0MjcxIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NDI0MzE1MzksImV4cCI6MTY0MjQ0OTUzOSwiaWF0IjoxNjQyNDMxNTM5LCJqdGkiOiIwMzkxOTNhZi04NDQ1LTRlMjItOTRiYi1jYzE0ZjJmMGU0MTgiLCJlbWFpbCI6Im9zY2FyZG1nQGdtYWlsLmNvbSJ9.v41dY4HMymD09YTNxExoo-Q5GvUchJf9Fmk3ou55ANRgfsImBNoOVP4bBEjnjC7UfrtL1MBp_RfICuXlyaY_ixNnfdsBDLdnGNxHtFFHX0MNevyKa66ZMnXDLvj3lcYEydjcH0oNiIazo5PcVvVXUgnT-ygGoiMrdv1nAFKqf4AsjANJOy4AXpCB6JQJeqDtyCMm5CsLzHIiiS3O92NLbeFrntg4CUyLLjnuICRPKa6KMtNx9aTSeYC143JpPMaUPumdMvz5uzVwK6MmZSTd3TUfglVQ9Gib1nWOGIg7u9RbICkeX5s1PU6FCO_Sk0OWLyWo53Qo9E_Wv9Of-fdSUg
+
